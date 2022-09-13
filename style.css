@@ -48,7 +48,8 @@ main > div {
     cursor: pointer;
 }
 
-main > div:hover {
+main > div:hover,
+main > div.active {
     color: white;
     background-color: black;
 }
